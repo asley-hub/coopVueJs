@@ -3,9 +3,9 @@ import { inject, reactive } from 'vue'
 const router = inject('router');
 
 let member = reactive({
-    fullname: 'Asley Valisoa',
-    email: 'asleyvalisoa16@gmail.com',
-    password: '1234'
+    fullname: '',
+    email: '',
+    password: ''
 })
 
 function validationFormulaire() {
