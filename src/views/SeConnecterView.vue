@@ -5,8 +5,8 @@ const router = useRouter();
 import {useSessionStore} from '@/stores/session';
 const session = useSessionStore();
 let member = reactive({
-  email: "asleyvalisoa16@gmail.com ",
-  password: "1234",
+  email: "",
+  password: "",
 });
 
 function validateFormulaire() {
